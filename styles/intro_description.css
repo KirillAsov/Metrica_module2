@@ -1,0 +1,118 @@
+.intro>h1 {
+    max-width: 956px;
+    font-size: 60px;
+    color: #121212;
+    margin-top: 68px;
+}
+.intro__foto {
+    width: 100%;
+    height: 500px;
+    background-image:url(../resources/фон\ текс.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 30px;
+}
+.intro__foto>p {
+    width: 430px;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 27px;  
+    position: absolute; 
+    left: 40px;
+    bottom: 40px;
+}
+.description {
+    margin-top: 153px;
+}
+.description__title {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #121212;
+}
+.description__text {
+    width: 1048px;
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+    margin-bottom: 50px;
+    margin-top: 31px;
+}
+.service_btn {
+    background-color: #AD1818;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+@media (max-width:1199px) {
+    .intro>h1 {
+        max-width: 802px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .intro__foto {
+        margin-top: 28px;
+        height: 400px;
+        background-image:url(../resources/intro_foto_tablet.png);
+    }
+    .intro__foto>p {
+        bottom: 30px;
+    }
+    .description {
+        margin-top: 120px;
+    }
+    .description__text {
+        width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width:767px) {
+    .intro>h1 {
+        width: 337px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .intro__foto {
+        margin-top: 24px;
+        height: 350px;
+    }
+    .intro__foto>p {
+        width: 312px;
+        font-size: 16px;
+        line-height: 22px; 
+        bottom: 15px;
+        left: 15px;
+    }
+    .description {
+        margin-top: 79px;
+    }
+    .description__title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .description__text {
+        width: calc(100% - 6px);
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 44.5px;
+        margin-top: 20px;
+    }
+    .service_btn {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 14.5px 27px;
+    }
+}
+@media (max-width:400px) {
+    .intro__foto {
+        height: 304px;
+        background-image:url(../resources/intro_foto_mobile.png);
+    }
+}
