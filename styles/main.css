@@ -1,0 +1,83 @@
+@import "intro_description.css";
+@import "projects.css";
+@import "services.css";
+@import "feedbacks.css";
+@import "gallery.css";
+@import "contacts.css";
+@import "footer.css";
+@import "popup.css";
+@import "header.css";
+
+body {
+    font-family: 'Manrope';
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+.body_fixed {
+    overflow: hidden;
+}
+h1, h2, h3, p, div, a {
+    letter-spacing: -0.03em;
+}
+button {
+    font-family: inherit;
+}
+.container_main {
+    width: 1150px;
+    margin: 0 auto;
+}
+.black_part_wraper {
+    margin-top: 150px;
+    padding-bottom: 150px;
+    background-color: #121212;
+}
+.order__sevice {
+    width: 100%;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 41px;
+    padding: 56px 0;
+    color: #ffffff;
+    background-color: rgba(173, 24, 24, 1);
+    border: 1px solid rgba(173, 24, 24, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contacts_wrapper {
+    padding: 150px 0;
+}
+@media (max-width:1199px) {
+    .container_main {
+        width: 100%;
+        padding: 0 16px;
+    }
+    .black_part_wraper {
+        margin-top: 102px;
+        padding-bottom: 120px;
+    }
+    .container_main_gallery {
+        padding: 0 50px;
+    }
+    .contacts_wrapper {
+        padding-top: 120px;
+        padding-bottom: 119px;
+    }
+}
+@media (max-width:767px) {
+    .container_main {
+        padding: 0 12px;
+    }
+    .black_part_wraper {
+        margin-top: 79px;
+        padding-bottom: 80px;
+    }
+    .order__sevice {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 33.5px 0;
+    }
+    .contacts_wrapper {
+        padding: 78px 0px;
+    }
+}
+
