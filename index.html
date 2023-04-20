@@ -28,7 +28,7 @@
         </div>
     </header>
     <div class="js-burger burger">
-        <div class="js-burger__content burger__content">
+        <div class="burger__content">
             <img class="logo-burger" src="resources/Метрика.png" alt="logo">
             <nav class="navigation-burger">
                 <a class="navigation-burger__link" href="#about">О нас</a>
@@ -36,7 +36,7 @@
                 <a class="navigation-burger__link" href="#services">Услуги</a>
                 <a class="navigation-burger__link" href="#contacts">Контакты</a>
             </nav>
-            <p class="for_connect">для связи:</p>
+            <p class="for_connect js-burger__content">для связи:</p>
             <a class="contact_burger contact_burger-number" href="tel:+">+7 935 895-45-35</a>
             <a class="contact_burger contact_burger-mail" target="_blank" href="https://t.me/Kirill_Asov">Kirill_Asov</a>
         </div>
@@ -133,9 +133,9 @@
                         <p class="popup__title">Заказать услугу</p>
                         <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
                         <div class="input_wrapper">
-                            <input class="input" type="text" placeholder="Имя">
-                            <input class="input" type="text" placeholder="Электронная почта">
-                            <input class="input" type="text" placeholder="Номер телефона">
+                            <input class="input" type="text" name="name" placeholder="Имя">
+                            <input class="input" type="email" name="email" placeholder="Электронная почта">
+                            <input class="input" type="tel" name="phone" placeholder="Номер телефона">
                         </div>
                         <button class="popup__order_btn">Отправить</button>
                     </div>
